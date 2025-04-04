@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font imports (Poppins and Inter) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>E-Commerce Homepage</title>
+  </head>
+
+  <body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+      <div class="container-apple">
+        <div class="apple_afisha">
+          <p class="pof_shop">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="shop-now">ShopNow</a>
+        </div>
+        <div class="language-selector">
+          English
+          <img src="./img/DropDown.png" alt="Select language" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-hero">
+        <h1 class="logo">Exclusive</h1>
+        <nav class="main-nav">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./about.html">about</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <div class="search-bar">
+            <input type="text" placeholder="What are you looking for?" />
+            <button type="button-search">
+              <img src="./img/Vector.png" alt="Search" />
+            </button>
+          </div>
+          <div class="header-icons">
+            <a href="./wishlist.html" class="icon-button">
+              <img src="./img/Wishlist.png" alt="Wishlist" />
+            </a>
+            <a href="#" class="icon-button">
+              <img src="./img/Cart1.png" alt="Cart" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <div class="line-img">
+      <!-- <img src="./img/Line 5 (1).png" alt="line" /> -->
+    </div>
+
+    <!-- Categories and Hero -->
+    <div class="hero-section">
+      <div class="containerof-steve">
+        <aside class="categories-sidebar">
+          <ul>
+            <li>Woman's Fashion</li>
+            <li>Men's Fashion</li>
+            <li>Electronics</li>
+            <li>Home & Lifestyle</li>
+            <li>Medicine</li>
+            <li>Sports & Outdoor</li>
+            <li>Baby's & Toys</li>
+            <li>Groceries & Pets</li>
+            <li>Health & Beauty</li>
+          </ul>
+        </aside>
+        <div class="womanArrow">
+          <img src="./img/DropDownLeft.png" alt="DropDown" />
+        </div>
+        <div class="manArrow">
+          <img src="./img/DropDownLeft.png" alt="DropDown" />
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Carousel Items -->
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div class="hero-banner">
+                <div class="hero-content">
+                  <div class="hero-logo">
+                    <img src="./img/1200px-Apple_gray_logo 1.png" alt="Apple" />
+                    <span>iPhone 14 Series</span>
+                  </div>
+                  <h2>Up to 10% off Voucher</h2>
+                  <a href="#" class="shop-now-link">
+                    Shop Now
+                    <img src="./img/icons arrow-right.png" alt="Arrow" />
+                  </a>
+                </div>
+                <img
+                  src="img/hero_endframe__cvklg0xk3w6e_large 2.png"
+                  alt="iPhone 14"
+                  class="hero-image"
+                />
+                <div class="hero-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot active">
+                    <img src="./img/Group 1000005940.png" alt="dot active" />
+                  </span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div class="hero-banner">
+                <div class="hero-content">
+                  <div class="hero-logo">
+                    <img src="./img/1200px-Apple_gray_logo 1.png" alt="Apple" />
+                    <span>iPhone 13 Series</span>
+                  </div>
+                  <h2>Up to 15% off Voucher</h2>
+                  <a href="#" class="shop-now-link">
+                    Shop Now
+                    <img src="./img/icons arrow-right.png" alt="Arrow" />
+                  </a>
+                </div>
+                <img
+                  src="img/hero_endframe__cvklg0xk3w6e_large 2.png"
+                  alt="iPhone 13"
+                  class="hero-image"
+                />
+                <div class="hero-dots">
+                  <span class="dot"></span>
+                  <span class="dot active">
+                    <img src="./img/Group 1000005940.png" alt="dot active" />
+                  </span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third Slide -->
+            <div class="carousel-item">
+              <div class="hero-banner">
+                <div class="hero-content">
+                  <div class="hero-logo">
+                    <img src="./img/1200px-Apple_gray_logo 1.png" alt="Apple" />
+                    <span>iPhone SE</span>
+                  </div>
+                  <h2>Up to 5% off Voucher</h2>
+                  <a href="#" class="shop-now-link">
+                    Shop Now
+                    <img src="./img/icons arrow-right.png" alt="Arrow" />
+                  </a>
+                </div>
+                <img
+                  src="img/hero_endframe__cvklg0xk3w6e_large 2.png"
+                  alt="iPhone SE"
+                  class="hero-image"
+                />
+                <div class="hero-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot active">
+                    <img src="./img/Group 1000005940.png" alt="dot active" />
+                  </span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flash Sale Section -->
+    <section class="flash-sale">
+      <div class="container">
+        <div class="section-header">
+          <div class="title-group">
+            <div class="indicator"></div>
+            <span class="subtitle">Today's</span>
+          </div>
+          <div class="timer">
+            <h2>Flash Sales</h2>
+            <div class="timer-item">
+              <span class="timer-value">03</span>
+              <span class="timer-label">Days</span>
+            </div>
+            <div class="timer-separator"></div>
+            <div class="timer-item">
+              <span class="timer-value">23</span>
+              <span class="timer-label">Hours</span>
+            </div>
+            <div class="timer-separator"></div>
+            <div class="timer-item">
+              <span class="timer-value">19</span>
+              <span class="timer-label">Minutes</span>
+            </div>
+            <div class="timer-separator"></div>
+            <div class="timer-item">
+              <span class="timer-value">56</span>
+              <span class="timer-label">Seconds</span>
+            </div>
+            <div class="Arrows">
+              <img src="./img/Arrows726 (1).png" alt="Arrows" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div class="Tech-Sale Mini-tech-sale">
+          <div class="product-card">
+            <img
+              src="./img/Frame 570.png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">HAVIT HV-G92 Gamepad</h2>
+              <div class="price">
+                <span class="current">$120</span>
+                <span class="original">$160</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="count">(88)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./img/Frame 570 (2).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">AK-900 Wired Keyboard</h2>
+              <div class="price">
+                <span class="current">$960</span>
+                <span class="original">$1160</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="count">(75)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./img/Frame 570 (3).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">IPS LCD Gaming Monitor</h2>
+              <div class="price">
+                <span class="current">$370</span>
+                <span class="original">$400</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="count">(99)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./img/Frame 570 (4).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">S-Series Comfort Chair</h2>
+              <div class="price">
+                <span class="current">$375</span>
+                <span class="original">$400</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="count">(99)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./img/Frame 570 (5).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">S-Series Comfort Chair</h2>
+              <div class="price">
+                <span class="current">$375</span>
+                <span class="original">$400</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="count">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="Products-button">View All Products</button>
+      </div>
+    </section>
+    <!-- icons -->
+    <div class="line-img">
+      <img src="./img/Line 5 (1).png" alt="line" />
+    </div>
+    <section class="flash-sale">
+      <div class="container">
+        <div class="section-header">
+          <div class="title-group">
+            <div class="indicator"></div>
+            <span class="subtitle">Category</span>
+          </div>
+
+          <div class="timer">
+            <h2>Browse By Category</h2>
+
+            <div class="Arrows">
+              <img src="./img/Arrows726 (1).png" alt="Arrows" />
+            </div>
+          </div>
+        </div>
+
+        <div class="icons-hero">
+          <img src="./cards/Category-Phone.png" alt="" />
+          <img src="./cards/Category-comp (1).png" alt="" />
+          <img src="./cards/Category-whatch(1).png" alt="" />
+          <div class="redImgParent">
+            <div class="redImg">
+              <img src="./cards/Category-cam(1).png" alt="" />
+            </div>
+          </div>
+          <img src="./cards/Category-ear (1).png" alt="" />
+          <img src="./cards/Category-game(1).png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="line-img">
+      <img src="./img/Line 5 (1).png" alt="line" />
+    </div>
+    <!-- tansacmeli -->
+    <section class="flash-sale">
+      <div class="container">
+        <div class="section-header">
+          <div class="title-group">
+            <div class="indicator"></div>
+            <span class="subtitle">This Month</span>
+          </div>
+          <div class="timer">
+            <h2>Best Selling Products</h2>
+            <div class="ViewAllButton">
+              <button>View All</button>
+            </div>
+          </div>
+        </div>
+        <!-- Product Cards -->
+        <div class="Tech-Sale" >
+          <div class="product-card">
+            <img
+              src="./clothes/Cart.png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">The north coat</h2>
+              <div class="price">
+                <span class="current">$260</span>
+                <span class="original">$360</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+
+                <span class="count">(65)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./clothes/Cart (bag).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">Gucci duffle bag</h2>
+              <div class="price">
+                <span class="current">$960</span>
+                <span class="original">$1160</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★</div>
+
+                <span class="count">(85)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./clothes/Cart (din).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">RGB liquid CPU Cooler</h2>
+              <div class="price">
+                <span class="current">$160</span>
+                <span class="original">$170</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+
+                <span class="count">(65)</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="./clothes/Cart (ch).png"
+              alt="Summer Dress"
+              class="product-img"
+            />
+            <div class="product-info">
+              <h2 class="product-title">Small BookSelf</h2>
+              <div class="price">
+                <span class="current">$360</span>
+              </div>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+
+                <span class="count">(99)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jbl -->
+    <section class="JBL-section">
+      <div class="JBL-container">
+        <div class="JBL-info">
+          <h3 class="JBL-h3">Categories</h3>
+          <div class="jblText">Enhance Your Music Experience</div>
+          <div class="timer-img">
+            <img src="./screens/timer.png" alt="timer" />
+          </div>
+          <div class="JBL-button">
+            <button class="JBL-button1">Buy Now!</button>
+          </div>
+        </div>
+        <div class="JBL-img">
+          <div class="JBL-photo-cover">
+            <img src="./indeximg/Ellipse 23.png" alt="Elipse" />
+            <div class="JBL-photo">
+              <img src="./indeximg/Frame 694.png" alt="JBl" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- satamashoebi -->
+    <section class="flash-sale">
+      <div class="container">
+        <div class="section-header">
+          <div class="title-group">
+            <div class="indicator"></div>
+            <span class="subtitle">Our Products</span>
+          </div>
+          <div class="timer">
+            <h2>Explore Our Products</h2>
+            <div class="Arrows">
+              <img src="./img/Arrows726 (1).png" alt="Arrows" />
+            </div>
+          </div>
+        </div>
+        <div class="product-hero">
+          <!-- Product Cards -->
+          <div class="Tech-Sale">
+            <div class="product-card">
+              <img
+                src="./every/Cart (dog).png"
+                alt="Summer Dress"
+                class="product-img"
+              />
+              <div class="product-info">
+                <h2 class="product-title">Breed Dry Dog Food</h2>
+                <div class="price">
+                  <span class="current">$100</span>
+                  <span class="original">$70.00</span>
+                </div>
+                <div class="rating">
+                  <div class="stars">★★★★★</div>
+
+                  <span class="count">(99)</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="./every/Cart.cam.png"
+                alt="Summer Dress"
+                class="product-img"
+              />
+              <div class="product-info">
+                <h2 class="product-title">CANON EOS DSLR Camera</h2>
+                <div class="price">
+                  <span class="current">$49.99</span>
+                  <span class="original">$70.00</span>
+                </div>
+                <div class="rating">
+                  <div class="stars">★★★★★</div>
+
+                  <span class="count">(99)</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="./every/laptop.png"
+                alt="Summer Dress"
+                class="product-img"
+              />
+              <div class="product-info">
+                <h2 class="product-title">ASUS FHD Gaming Laptop</h2>
+                <div class="price">
+                  <span class="current">$49.99</span>
+                  <span class="original">$70.00</span>
+                </div>
+                <div class="rating">
+                  <div class="stars">★★★★★</div>
+
+                  <span class="count">(99)</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="./every/Cart.png"
+                alt="Summer Dress"
+                class="product-img"
+              />
+              <div class="product-info">
+                <h2 class="product-title">Curology Product Set</h2>
+                <div class="price">
+                  <span class="current">$49.99</span>
+                  <span class="original">$70.00</span>
+                </div>
+                <div class="rating">
+                  <div class="stars">★★★★★</div>
+
+                  <span class="count">(99)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Cards -->
+          <div class="tech-hero">
+            <div class="Tech-Sale">
+              <div class="product-card">
+                <img
+                  src="./every/Car.png"
+                  alt="Summer Dress"
+                  class="product-img"
+                />
+                <div class="product-info">
+                  <h2 class="product-title">Kids Electric Car</h2>
+                  <div class="price">
+                    <span class="current">$49.99</span>
+                    <span class="original">$70.00</span>
+                  </div>
+                  <div class="rating">
+                    <div class="stars">★★★★★</div>
+
+                    <span class="count">(99)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card">
+                <img
+                  src="./every/Carttrain.png"
+                  alt="Summer Dress"
+                  class="product-img"
+                />
+                <div class="product-info">
+                  <h2 class="product-title">Jr. Zoom Soccer Cleats</h2>
+                  <div class="price">
+                    <span class="current">$49.99</span>
+                    <span class="original">$70.00</span>
+                    >
+                  </div>
+                  <div class="rating">
+                    <div class="stars">★★★★★</div>
+
+                    <span class="count">(99)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card">
+                <img
+                  src="./every/Cartjoy.png"
+                  alt="Summer Dress"
+                  class="product-img"
+                />
+                <div class="product-info">
+                  <h2 class="product-title">GP11 Shooter USB Gamepad</h2>
+                  <div class="price">
+                    <span class="current">$49.99</span>
+                    <span class="original">$70.00</span>
+                  </div>
+                  <div class="rating">
+                    <div class="stars">★★★★★</div>
+
+                    <span class="count">(99)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card">
+                <img
+                  src="./every/Cartcoat.png"
+                  alt="Summer Dress"
+                  class="product-img"
+                />
+                <div class="product-info">
+                  <h2 class="product-title">Quilted Satin Jacket</h2>
+                  <div class="price">
+                    <span class="current">$49.99</span>
+                    <span class="original">$70.00</span>
+                  </div>
+                  <div class="rating">
+                    <div class="stars">★★★★★</div>
+
+                    <span class="count">(99)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="Products-button">View All Products</button>
+      </div>
+    </section>
+
+    <!-- playstation -->
+
+    <div class="playstation-div">
+      <div class="section-header">
+        <div class="title-group">
+          <div class="indicator"></div>
+          <span class="subtitle">Featured</span>
+        </div>
+        <div class="timer">
+          <h2>New Arrivals</h2>
+        </div>
+      </div>
+
+      <div class="arrivals-photo">
+        <div class="item-card large">
+          <img src="./screens/playstation.png" alt="arrivals-photo" />
+        </div>
+
+        <div class="right-side">
+          <!-- Women's Collection -->
+          <div class="item-card">
+            <img src="./screens/Frame 685.png" alt="arrivals-photo" />
+          </div>
+          <div class="down-side">
+            <div class="small-cards">
+              <!-- Speakers -->
+              <div class="item-card">
+                <img src="./screens/speaker 686.png" alt="arrivals-photo" />
+              </div>
+
+              <!-- Perfume -->
+              <div class="item-card">
+                <img src="./screens/parfumer.png" alt="arrivals-photo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service Features -->
+    <div class="playstation-features">
+      <div class="service-features">
+        <div class="feature">
+          <div class="feature-icon">
+            <img src="./screens/Services.png" alt="arrivals-photo" />
+          </div>
+          <h3 class="feature-h3">FREE AND FAST DELIVERY</h3>
+          <p class="feature-p">Free delivery for all orders over $140</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img src="./screens/headphones.png" alt="arrivals-photo" />
+          </div>
+          <h3 class="feature-h3">24/7 CUSTOMER SERVICE</h3>
+          <p class="feature-p">Friendly 24/7 customer support</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img src="./screens/bcichka (1).png" alt="arrivals-photo" />
+          </div>
+          <h3 class="feature-h3">MONEY BACK GUARANTEE</h3>
+          <p class="feature-p">We return money within 30 days</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container_footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3 class="footer-h3">Exclusive</h3>
+            <p>Subscribe</p>
+            <p>Get 10% off your first order</p>
+            <div class="subscribe-form">
+              <input type="email" placeholder="Enter your email" />
+              <button type="button">
+                <img src="./img/icon-send.png" alt="Subscribe" />
+              </button>
+            </div>
+          </div>
+          <div class="footer-column1">
+            <h3 class="footer-h3">Support</h3>
+            <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+            <p>exclusive@gmail.com</p>
+            <p>+88015-88888-9999</p>
+          </div>
+          <div class="footer-column2">
+            <h3>Account</h3>
+
+            <p>My Account</p>
+            <p>Login / Register</p>
+            <p>Cart</p>
+            <p>Shop</p>
+            <p>Wishlist</p>
+            <p>Shop</p>
+          </div>
+          <div class="footer-column3">
+            <h3 class="footer-h3">Quick Link</h3>
+
+            <p>Privacy Policy</p>
+            <p>Terms Of Use</p>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="footer-column4">
+            <h3 class="footer-h3">Download App</h3>
+            <p class="app-text">Save $3 with App New User Only</p>
+            <div class="app-downloads">
+              <img src="/./img/Qr Code.png " alt="QR Code" class="qr-code" />
+              <div class="app-buttons">
+                <img
+                  src="./img/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
+                  alt="Google Play"
+                />
+                <img src="./img/download-appstore.png" alt="App Store" />
+              </div>
+            </div>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="./img/Icon-Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"><img src="./img/Icon-Twitter.png" alt="Twitter" /></a>
+              <a href="#"><img src="./img/Group.png" alt="Instagram" /></a>
+              <a href="#"
+                ><img src="./img/Icon-Linkedin.png" alt="LinkedIn"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; Copyright Rimel 2023. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top">
+      <img src="./cards/Fill with Up Arrow.png" alt="Scroll to top" />
+    </button>
+  </body>
+</html>
